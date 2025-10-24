@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            padding: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página web</h1>
+    </header>
+    <main>
+        <h2>Hola, Deonicio🌎</h2>
+        <p>sale un par o k?</p>
+        <button onclick="saludo()">Haz clic aquí</button>
+    </main>
+    <footer>
+        <p>© 2025 Mi primera web</p>
+    </footer>
+
+    <script>
+        function saludo() {
+            alert("¡Hola! Gracias por visitar mi página 😄");
+        }
+    </script>
+</body>
+</html>
